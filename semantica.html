@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web semantica</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <style>
 
         body {
             margin: 0px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
         }
 
         .menu {
@@ -17,7 +21,7 @@
             width: 100%;
             background-color: #004c40;
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             align-items: center;
             
         }
@@ -36,20 +40,33 @@
 
         .menu div ul li {
             padding-right: 30px;
+            font-family: 'Fjalla One', sans-serif;
         }
 
         .menu div ul li a{
             text-decoration: none;
             color: white;
         }
+
+        .menu div ul li a:hover{
+            text-decoration: underline;
+        }
+
+        .header {
+            width: 100vw;
+            height: 60vh;
+            background-image: url(pexels-photo-39811.jpeg);
+            background-position: center center;
+        }
+
     </style>
 
 </head>
 
 <body>
     
-    <header>
-        Encabezado
+    <header class="header">
+        
     </header>
 
     <nav class="menu">
