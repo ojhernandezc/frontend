@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .page-header  {
+    font-size: 12px;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    background: #412658;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .page-content {
+    height: 100%;
+    display: flex;
+    background: #fafafa;
+  }
+  
+  .article-content {
+    background: #dc7bed;
+    width: 40vw;
+  }
+  
+  .aside-content {
+    background: #cc02b1;
+    width: 40vw;
+  }
+  
+  .navigation-content {
+    background: #efbae9;
+    width: 20vw;
+    font-size:14px;
+  }
+  .footer-page {
+    background: #4e484f;
+  }
+  
