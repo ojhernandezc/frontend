@@ -1,11 +1,29 @@
 body{
     margin: 0px;
-    height: 100vh;
 }
 
 .header-container {
-    height: 700px;
+    height: 100vh;
     width: 100vw;
     background-image: url(./portfolio.png);
     background-size: cover;
+}
+
+.header-container nav{
+    font-family: 'Lato', sans-serif;
+}
+
+.header-container nav ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+}
+
+.header-container nav li{
+    color: white;
+    
+    padding-right: 100px;
 }
