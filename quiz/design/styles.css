@@ -7,10 +7,14 @@ body{
     width: 100vw;
     background-image: url(./portfolio.png);
     background-size: cover;
+    background-position: right top;
+    background-attachment: scroll;
 }
 
 .header-container nav{
     font-family: 'Lato', sans-serif;
+    height: 80px;
+    display: flex;
 }
 
 .header-container nav ul{
@@ -19,11 +23,24 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 70px;
+    
 }
 
 .header-container nav li{
     color: white;
-    
+    font-weight: bold;
     padding-right: 100px;
+}
+
+.header {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 100%;
+}
+
+.text_header {
+    font-size: 30px;
+    color: white;
 }
