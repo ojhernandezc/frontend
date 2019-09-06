@@ -33,14 +33,29 @@ body{
 }
 
 .header {
-    box-sizing: content-box;
+    width: 50vw;
+    font-family: 'Lato', sans-serif;
+    height: calc(100% - 80px);
     display: flex;
     align-items: center;
-    width: 50vw;
-    height: 100%;
 }
 
 .text_header {
-    font-size: 30px;
     color: white;
+    margin-left: 30px;
+}
+
+.text_header_name {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.text_header_desc {
+    font-size: 56px;
+    font-weight: bold;
+    margin: 15px 0 0;
+}
+
+.text_header_desc span {
+    background-color: darkblue;
 }
