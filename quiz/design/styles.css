@@ -59,3 +59,15 @@ body{
 .text_header_desc span {
     background-color: darkblue;
 }
+
+.button_link {
+    padding: 20;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+.button_link:hover {
+    background-color: blue;
+}
