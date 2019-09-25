@@ -79,12 +79,19 @@ body{
 
 @media screen and (max-width: 768px) {
 
-    
-    
+    .header-container {
+        background-position: left top;
+
+    }    
     
 }
 
 @media screen and (max-width: 480px) {
+
+    .header-container {
+        background-image: none;
+        background-image: url(./abstract.jpg);
+    }  
 
 }
 
@@ -92,7 +99,8 @@ body{
 @media screen and (max-width: 320px) {
     .header-container {
         background-image: none;
-        background-color: midnightblue;
+        /* background-color: midnightblue; */
+        background-image: url(./abstract2.jpg);
     }
 
     .button_link {
