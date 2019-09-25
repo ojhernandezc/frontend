@@ -15,7 +15,18 @@ nav {
 
 .nav_menu {
     width: 50vw;
-    background-color: red;
+}
+
+.nav_menu ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_menu nav li{
+    color: white;
+    font-weight: bold;
 }
 
 .nav_button {
