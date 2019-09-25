@@ -130,8 +130,8 @@ body{
     }
     
     .header-container nav li{
-        padding-right: 0px;
         margin-top: 10px;
         text-align: right;
+        padding-right: 10px;
     }
 }
